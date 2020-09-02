@@ -1,0 +1,88 @@
+
+
+body {
+    background-image: url('https://searchengineland.com/figz/wp-content/seloads/2015/12/google-amp-fast-speed-travel-ss-1920-800x450.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+
+.box {background-image: url('https://images.idgesg.net/images/article/2019/04/google-shift-100794036-large.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    background-color:yellowgreen;
+    box-sizing: border-box;
+    width: 840px;
+    height: 700px;
+    border: 1px solid black;
+    padding: 9px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.inner-box {background-color: lightblue;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 100x;
+    bottom: 450px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+  .topnav a {
+      
+      position: relative;
+
+    color: #f2f2f2;
+    padding: 14px 16px;
+    font-size: 17px;
+   left: 430px;
+   bottom: 145px;
+  }
+    
+  .btn {
+    position: relative;
+    width:200px;
+    height: 50px;
+    background-color: blueviolet;
+    left: 10px;
+   top: 150px;
+      
+   
+  }
+
+  .helpbutton{
+      position: relative;
+      width:50px;
+    height: 25px;
+    left: 780px;
+    bottom: 150px;
+    background-color: rgb(79, 123, 124);
+  }
+
+  .funclick{ border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+  }
+
+
+
+
+
+
+
