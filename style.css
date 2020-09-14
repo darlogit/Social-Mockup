@@ -1,57 +1,63 @@
 
 
+
+
+h1{background-color: turquoise;
+  background-image: url(https://mcdn.wallpapersafari.com/medium/10/66/VLMxBR.jpg);
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 100;
+  font-style: oblique;
+width: 200px;
+position: relative;
+}
 body {
-    background-image: url('https://searchengineland.com/figz/wp-content/seloads/2015/12/google-amp-fast-speed-travel-ss-1920-800x450.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url(https://www.abc.net.au/cm/rimage/8281088-3x2-xlarge.jpg?v=6);
+    background-repeat:repeat;
     background-size: cover;
+    position: relative;
   }
 
 
 
 .box {background-image: url('https://images.idgesg.net/images/article/2019/04/google-shift-100794036-large.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:relative;
     background-size: cover;
 
-    background-color:yellowgreen;
+    
     box-sizing: border-box;
-    width: 840px;
-    height: 700px;
-    border: 1px solid black;
-    padding: 9px;
+    width: 850px;
+    height: 300px;
+    border: 5px solid black;
     margin-left: auto;
     margin-right: auto;
 
-}
-
-.inner-box {background-color: lightblue;
+  }
+  .inner-box {background-color: lime;
     position: relative;
-    width: 100px;
-    height: 100px;
-    left: 100x;
-    bottom: 450px;
-    border: 1px solid black;
-    border-radius: 5px;
-
-}
+    
+  }
+  
 
   .topnav a {
       
-      position: relative;
-
+      position: relative; background-color: rgb(55, 55, 146);
+      border: solid black;
+      border-radius: 5px;
+     
     color: #f2f2f2;
     padding: 14px 16px;
-    font-size: 17px;
+    font-size: 15px;
    left: 430px;
-   bottom: 145px;
+   bottom: 130px;
   }
     
   .btn {
     position: relative;
     width:200px;
     height: 50px;
-    background-color: blueviolet;
+    background-color: rgb(125, 33, 211);
     left: 10px;
    top: 150px;
       
@@ -67,14 +73,117 @@ body {
     background-color: rgb(79, 123, 124);
   }
 
+  .theother{ position: relative;
+
+    box-sizing: border-box;
+    width: 850px;
+    height: 505px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-image: url(https://img.etimg.com/thumb/msid-77373129,width-1200,height-900/news/company/corporate-trends/google-amazon-take-the-work-from-home-route-as-coronavirus-pandemic-refuses-to-abate/google.jpg);
+
+  }
+
+  .column1{ position: relative;
+    bottom: auto;
+    left:-1px;
+    background-size: cover;
+
+    background-image: url(https://i.pinimg.com/originals/9e/3c/72/9e3c72aec5634f96b2f4676e95b7c7e7.jpg);
+    height: 500px;
+    width: 328px;
+
+  }
+
+  .column2{position: relative;
+
+    bottom: 140px;
+    left: 336px;
+
+    background-image: url(https://app.skufetch.com/images.tmp/Barrington_10_Player_7108_0_res.jpeg);
+    
+    
+    height: 500px;
+    width: 512px;
+
+  }
+
+.flex-container{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+.flex-box{display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.one{
+  background-image: url(https://i.ebayimg.com/images/g/n84AAOSwMg5b~rxy/s-l640.jpg);
+  height: 140px;
+  width: 110px;
+  background-size: cover;
+  border-radius: 4px;
+ order: 2;
+}
+
   
+  
+
+  .two{
+    background-image: url(https://i.pinimg.com/originals/ca/b2/14/cab2144eae57014a1a3175b4be3e45e8.png);
+    height: 140px;
+    width: 110px;
+    border-radius: 4px;
+    background-size: cover;
+  }
+ 
+  .three{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Playing_card_heart_A.svg/1200px-Playing_card_heart_A.svg.png);
+    height: 140px;
+    width:110px;
+    border-radius: 4px;
+    background-size: cover;
+  }
+
+  .four{
+    background-image: url(https://previews.123rf.com/images/henningmarquardt/henningmarquardt1703/henningmarquardt170300276/74712993-large-index-playing-card-jack-of-diamonds.jpg);
+    height: 140px;
+    width: 110px;
+    border-radius: 4px;
+    background-size: cover;
+  }
+
+  .five{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Playing_card_club_3.svg/614px-Playing_card_club_3.svg.png);
+    height: 140px;
+    width: 110px;
+    border-radius: 4px;
+    background-size: cover;
+  }
+  .six{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Atlas_deck_3_of_hearts.svg/1200px-Atlas_deck_3_of_hearts.svg.png);
+    height: 140px;
+    width: 110px;
+    border-radius: 4px;
+    background-size: cover;
+  }
+  
+  .seven{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Playing_card_diamond_2.svg/1200px-Playing_card_diamond_2.svg.png);
+    height: 140px;
+    width: 110px;
+    border-radius: 4px;
+    background-size: cover;
+  }
 
 
  
-
-
-
-
-
-
 
